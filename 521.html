@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>521宿舍yyds！</title>
+     
+<style>
+    .button, form input[type="submit"], form button, form input[type="reset"] {
+    display: inline-block;
+    background: #FFF65B;
+    background: -webkit-linear-gradient(#FFF65B, #ec8940);
+    background: linear-gradient(#FFF65B, #ec8940);
+    border-bottom: 1px solid #e26d17;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: #86450c;
+    top:400px;
+    left: 500px;
+    right: 500px;
+    position: absolute;
+}
+a {
+    text-decoration: none;
+    color: #21B4BA;
+}
+    .text-center {
+    text-align: center;
+}
+     
+    .mydiv{
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 36px;
+    text-align: center;
+ 
+    }
+     
+/*
+.p {
+    font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana, sans-serif;
+}
+*/
+    body{
+        background-color:aqua;background:url("images/8.jpg")}
+/*  .lanren{width:1000px;overflow:hidden;margin:0 auto;}*/
+    .flip-3d { 
+      perspective: 1200px; width: 25%; float: left;  
+    }
+    .flip-3d figure { 
+      position: relative; 
+      transform-style: preserve-3d; 
+      transition: 1s transform;
+      font-size: 1.6rem;
+      margin:20px;  /*margin是边框的长度*/
+      top: 40px;
+    }
+    .flip-3d figure img {  /*内嵌图片的属性*/
+      width: 100%; height: auto; 
+    }
+    .flip-3d figure figcaption { 
+      position: absolute; 
+      width: 100%; height: 100%; top: 0; 
+      transform: rotateY(.5turn) translateZ(1px); 
+      background: rgba(255,255,255,0.9); 
+      text-align: center; 
+      padding-top: 35%; 
+      opacity: 0.6;  /*透明框的透明度*/
+      transition: 1s .5s opacity; 
+    }
+    .flip-3d:hover figure { transform: rotateY(.5turn); }
+    .flip-3d:hover figure figcaption { opacity: 1; }
+    .flip-3d figure:after { 
+      content: " "; display: block;
+      height: 2vw; width: 100%;   /*height是透明框的高度*/
+      transform: rotateX(90deg); 
+      background-image:radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%); 
+    }
+    @media screen and (max-width: 800px) { 
+      #flip-3d { perspective-origin: center top; }
+        div#flip-3d figure { 
+        float: none; 
+        width: 50%; 
+        margin: 0 auto; 
+        margin-bottom: 12vw; 
+      }
+     .flip-3d figure figcaption{font-size: 0.8rem;}
+        div#flip-3d figure:last-child { display: none; }
+    }
+     
+    </style>
+</head>
+ 
+<body>
+    <span class="mydiv">Welcome to Class CS2107 Dormitory 301!!<br>
+        <span style="font-size: 14px;top:40px;position: absolute;left:400px;right:400px;color: #0A8AEB">这是一个普通但有趣的宿舍</span>
+    </span>
+    <div class="text-center">
+        <a href="http://rain-talk.gitee.io/class-homepage-2/" class="button">返回班级主页</a>
+    </div>
+<div class="flip-3d" >
+  <figure>
+          <img src="images/1.jpg" width="1147" height="760" alt="">
+            <figcaption>
+                <a href="http://rain-talk.gitee.io/xsl12138/
+"><h6>王萌梓</h6></a>
+                <span style="font-size: 12px">"你们别卷了啊啊啊"</span>
+            </figcaption>
+        </figure>
+</div>
+     
+    <div class="flip-3d">
+      <figure>
+            <img src="images/5.jpg" width="1144" height="760" alt="">
+            <figcaption>
+                <a href="https://nobody-zhang.github.io/index.html"><h6>张皓然</h6></a>
+                <span style="font-size: 12px">"我怎么这么菜啊！"</span>
+            </figcaption>
+        </figure>
+    </div>
+     
+    <div class="flip-3d">
+        <figure>
+          <img src="images/3.jpg" width="1147" height="760" alt="">
+            <figcaption>
+                <a href="https://xiboliyaxiangjiaojun.github.io/index.html"><h6>何厚涵</h6></a>
+                <span style="font-size: 12px">"301牛逼！！"</span>
+            </figcaption>
+        </figure>
+    </div>    
+     
+    <div class="flip-3d">
+        <figure>
+          <img src="images/4.jpeg" alt="">
+            <figcaption>
+                <a href="https://yuanhansen.github.io/yuanhansen.git.io/index.html"><h6>陈长</h6></a>
+                <span style="font-size: 12px">"521"</span>
+            </figcaption>
+        </figure>
+    </div>    
+     
+ 
+     
+     
+</body>
+</html>
